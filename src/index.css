@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        position: relative;
+        font-family: 'Urbanist', sans-serif, Inter, system-ui, Avenir, Helvetica, Arial;
+    }
+    h1, h2, h3 {
+        font-family:  'Roboto', sans-serif;
+    }
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
